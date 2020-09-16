@@ -5,6 +5,8 @@
     color: #fff;
 }
 
+body{background:black;}
+
 h1 {
     font-size: 40px;
 }
@@ -40,7 +42,7 @@ h2 {
 }
 
 .welcome {
-    background: white;
+    background: rgb(255, 255, 255) url('img/scroll.gif') no-repeat scroll center bottom / 200px;
 }
 
 .info {
@@ -73,7 +75,7 @@ h2 {
 
 .aoe {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), black url('img/aoe.png') no-repeat center center;
-    background-size: 100% auto;
+    background-size:cover;
 }
 
 .cholloscopio {
@@ -92,7 +94,7 @@ h2 {
 }
 
 .qr {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), black url('img/bar.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 1)), black url('img/bar.jpg') no-repeat center center;
     background-size: 100% auto;
 }
 
@@ -110,12 +112,17 @@ h2 {
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
+#pagepiling{display:none;}
+
 .padding {
     padding: 20px;
 }
 
 .logo{max-width:70%;background:#ff0049;}
 
+
+#scroll_up{position:fixed;top:0;left:0;width:100%;z-index:99;height:100px;}
+#scroll_down{position:fixed;bottom:0;left:0;width:100%;z-index:99;height:100px;}
 
 
 @media only screen and (max-width: 480px) {
@@ -140,4 +147,17 @@ h2 {
     #pp-nav.right {
         right: -3px;
     }
+
+    .aoe {
+        background-position: 85% 0;
+    }
+
+    .welcome {
+        background-size:200px auto;
+    }
+
+    .squat {
+        background-position:57% 0;
+    }
+    
 }

@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <title>Miquel Camps Orteza - Programador - Vivirenremoto</title>
+    <title>Miquel Camps Orteza - Programador Web - Vivirenremoto</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="pagepiling/jquery.pagepiling.min.css" />
-    <link rel="stylesheet" type="text/css" href="main.css?v=2" />
+    <link rel="stylesheet" type="text/css" href="main.css?v=3" />
 </head>
 
 <body>
@@ -19,8 +19,7 @@
         <div class="section welcome">
             <div class="padding">
                 <img src="img/logo_alpha.png" class="logo" id="gradient">
-                <p class="info">haz scroll para
-                    navegar</p>
+                <p class="info">Dame el código fuente y cambiaré el mundo</p>
             </div>
         </div>
 
@@ -101,7 +100,7 @@
 
         <div class="section contact">
             <div class="padding">
-                <h2>Contacto</h2>
+                <h2>¿Hablamos?</h2>
                 <p>
                     <a href="https://www.linkedin.com/in/miquelcamps/" target="_blank"><img src="img/linkedin.png"></a>
                     <a href="https://twitter.com/vivirenremoto" target="_blank"><img src="img/twitter.png"></a>
@@ -111,13 +110,16 @@
 
     </div>
 
+    <div id="scroll_up">&nbsp;</div>
+    <div id="scroll_down">&nbsp;</div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/background.js"></script>
     <script src="pagepiling/jquery.pagepiling.min.js"></script>
 
     <script>
-        $(document).ready(function () {
+        $(function () {
             $('#pagepiling').pagepiling({
 
 
@@ -127,6 +129,21 @@
                     'position': 'right',
                 }
 
+            });
+
+            setTimeout(function () {
+
+                $('#pagepiling').fadeIn('slow');
+
+            }, 500);
+
+
+            $('#scroll_up').click(function () {
+                $.fn.pagepiling.moveSectionUp();
+            });
+
+            $('#scroll_down').click(function () {
+                $.fn.pagepiling.moveSectionDown();
             });
         });
     </script>
