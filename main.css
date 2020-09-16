@@ -114,13 +114,15 @@ h2 {
     padding: 20px;
 }
 
+.logo{max-width:70%;}
+
 @media only screen and (max-width: 480px) {
 
     .section {
         background-size: auto 100%;
     }
 
-    img {
+    img, .logo {
         max-width: 100%;
     }
 
