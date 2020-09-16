@@ -55,7 +55,7 @@ h2 {
 
 .emotion {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), #000 url('img/emotion.jpg') no-repeat center center;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .mario {
