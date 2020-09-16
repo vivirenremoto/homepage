@@ -86,6 +86,11 @@ h2 {
     background-size: 100% auto;
 }
 
+.romu {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), black url('img/romu.png') no-repeat center center;
+    background-size: 100% auto;
+}
+
 .qr {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), black url('img/bar.jpg') no-repeat center center;
     background-size: 100% auto;
