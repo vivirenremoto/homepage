@@ -80,7 +80,7 @@ h2 {
 
 .cholloscopio {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), url('img/cholloscopio.png') no-repeat center center;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .idwallpaper {
