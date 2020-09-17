@@ -60,17 +60,17 @@ h2 {
 
 .mario {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), #4f87fe url('img/mario.png') no-repeat center center;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .squat {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), black url('img/squat.jpg') no-repeat center center;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .setup {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), black url('img/perfectsetup.png') no-repeat center center;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .aoe {
@@ -85,17 +85,17 @@ h2 {
 
 .idwallpaper {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), blue url('img/idwallpaper.png') no-repeat center center;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .romu {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), black url('img/romu.png') no-repeat center center;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .qr {
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 1)), black url('img/bar.jpg') no-repeat center center;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .contact {
