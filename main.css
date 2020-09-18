@@ -98,6 +98,12 @@ h2 {
     background-size: cover;
 }
 
+.tueboard {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), black url('img/tueboard.png') no-repeat center center;
+    background-size: cover;
+}
+
+
 .contact {
     background: black;
 }
