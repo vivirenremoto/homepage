@@ -53,6 +53,11 @@ h2 {
     font-weight: normal;
 }
 
+.slack {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), #000 url('img/slackcube.png') no-repeat center center;
+    background-size: cover;
+}
+
 .emotion {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 1)), #000 url('img/emotion.jpg') no-repeat center center;
     background-size: cover;
